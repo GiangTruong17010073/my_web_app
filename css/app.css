@@ -1,7 +1,31 @@
-body {
-  color: green;
-  background-color: white;
+@font-face {
+  font-family: "Patrick_Hand_SC";
+  src: url(../fonts/PatrickHandSC-Regular.ttf) ;
 }
+
+body {
+  font-family: "Patrick_Hand_SC";
+  color: green;
+  background-color: black;
+  font-size: 40px;
+}
+
+
 p{
   text-align: left;
+}
+figcaption{
+  text-align: center;
+  font-style: italic;
+}
+
+figure{
+  border-radius: 200px;
+  border-top: 10px solid #af0;
+  border-bottom:10px solid #af0;
+  border-left: 10px dashed #af0;
+  border-right: 10px dashed #af0;
+  padding: 10px 20px 30px 10px;
+  margin: auto;
+  text-align:  center;
 }
