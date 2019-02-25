@@ -4,12 +4,23 @@ div.people{
 }
 
 #Herman-Li{
-  corlor: rgb(150, 20, 0);
-  background-color: rgb(200, 25, 0);
+  color: rgb(25, 25, 25);
+  background-color: rgb(15, 160, 200);
 }
 
 #Slash{
-
+  color: rgb(100, 110, 120);
+  background-color: rgb(15, 160, 200);
 }
 
-audio, vidieo {width: 70%};
+#Mike-Shinoda{
+  color: rgb(100, 255, 255);
+  background-color: rgb(155, 150, 255);
+}
+
+#Huong{
+  color: rgb(140, 250, 160);
+  background-color: rgb(200, 0, 170);
+}
+
+audio, video {width, height: : 80%, 70%};
