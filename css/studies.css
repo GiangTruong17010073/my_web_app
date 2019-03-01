@@ -20,3 +20,9 @@ table{
   border-left: 2px dashed #af0;
   border-right: 2px dashed #af0;
 }
+
+.highlighted {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
