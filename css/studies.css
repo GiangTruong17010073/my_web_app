@@ -1,28 +1,42 @@
-@font-face {
-  font-family: "Patrick_Hand_SC";
-  src: url(../fonts/PatrickHandSC-Regular.ttf) ;
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    background-color: #fff;
+    width: 100%;
+    color: #000;
 }
 
-body {
-  font-family: "Patrick_Hand_SC";
-  color: rgb(0, 255, 0);
-  background-color: rgb(0, 0, 0);
-  font-size: 40px;
-  text-align: center;
-}
-
-tr{
-    text-align: center;
-}
-table{
-  border-top: 2px solid #af0;
-  border-bottom:2px solid #af0;
-  border-left: 2px dashed #af0;
-  border-right: 2px dashed #af0;
+td, th {
+    border: 2px solid #999;
+    text-align: left;
+    padding: 8px;
 }
 
 .highlighted {
-  background-color: red;
-  color: white;
+  background-color: #f00;
+  color: #fff;
   font-weight: bold;
+}
+
+/* .trHighlighted {  */
+tbody > tr:hover {
+  background-color: #87CEEB;
+  color: #fff;
+  font-weight: bold;
+}
+
+#my-td {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #87CEEB;
+  margin: 28px 0 28px 0;
+  height: 40px;
+  padding: 28px;
+}
+
+.my-td-span {
+  background-color: #87CEEB;
+  color: inherit;
+  font-weight: bold;
+  padding: 19px;
 }
