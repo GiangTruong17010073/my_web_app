@@ -1,104 +1,89 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="./css/app.css">
-    <link rel="stylesheet" type="text/css" href="./css/studies.css">
-  </head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <link rel="stylesheet"  type="text/css" href="css/studies.css">
+  </head>
   <body>
-    <h2>
-      My Academic Level
-    </h2>
+    <h2>TRÌNH ĐỘ HỌC VẤN</h2>
 
     <table>
-
       <thead>
         <tr>
-          <th>
-             Year
-          </th>
-          <th>
-            School Name
-          </th>
-          <th>
-            Town
-          </th>
-          <th>
-            Country
-          </th>
+          <th>Studies</th>
         </tr>
       </thead>
 
       <tbody>
         <tr>
           <td>
-            2006-2011
-          </td>
-          <td>
-            Cant Remember - Primary Shool
-          </td>
-          <td>
-            Da Nang City
-          </td>
-          <td>
-            VietNamese
+            <div class="row">
+              <div class="col-md-2 col-sm-6 my-study">
+                <span class="my-header">YEAR</span>
+                <div class="my-content">
+                  <span class="btn btn-xs btn-success my-study-open">
+                    <i class="fas fa-caret-down" aria-hidden="true"></i>
+                  </span>
+                  <span class="btn btn-xs btn-danger my-study-close d-none">
+                    <i class="fas fa-caret-up" aria-hidden="true"></i>
+                  </span>
+                  <span>2017 - now</span>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-sm-6 my-study my-study-detail my-study-detail-hidden">
+                <span class="my-header">SCHOOL</span>
+                <div class="my-content">Viện Nghiên cứu và Đào tạo Việt Anh</div>
+              </div>
+
+              <div class="col-md-4 col-sm-6 my-study my-study-detail my-study-detail-hidden">
+                <span class="my-header">TOWN</span>
+                <div class="my-content">Đà Nẵng</div>
+              </div>
+
+              <div class="col-md-3 col-sm-6 my-study my-study-detail my-study-detail-hidden">
+                <span class="my-header">COUNTRY</span>
+                <div class="my-content">Việt Nam</div>
+              </div>
+            </div>
           </td>
         </tr>
 
         <tr>
-          <td>
-            2011-2015
-          </td>
-          <td>
-            Nguyen Van Cu-Secondary Shool
-          </td>
-          <td>
-            Da Nang City
-          </td>
-          <td>
-            VietNamese
-          </td>
+          <td>2014 - 2017</td>
+          <td>Phan Châu Trinh Highschool</td>
         </tr>
 
         <tr>
-          <td>
-            2015-2017
-          </td>
-          <td>
-            Ngo Quyen - High Shool
-          </td>
-          <td>
-            Da Nang City
-          </td>
-          <td>
-            VietNamese
-          </td>
+          <td>2010 - 2014</td>
+          <td>Nguyễn Khuyến Secondary School</td>
         </tr>
 
         <tr>
-          <td>
-            2017-2021
-          </td>
-          <td>
-            VN-UK Institute for Research & Executive Education
-          </td>
-          <td>
-            Da Nang City
-          </td>
-          <td>
-            VietNamese
-          </td>
+          <td>2005 - 2010</td>
+          <td>Trần Văn Ơn Elementary School</td>
         </tr>
-      </tbody>
 
-    </table>
+        <tr>
+          <td>2007 - 2010</td>
+          <td>Hoa Phượng Đỏ Kindergarten</td>
+        </tr>
+     </tbody>
 
-    <div id="my-td">
-    </div>
+   </table>
 
-    <script type="text/javascript" src="./scripts/jquery/jquery.min.js"></script>
-    <script type="text/javascript" src="./scripts/jquery/studies.js"></script>
+   <div id="my-td">
+   </div>
+
+   <script type="text/javascript" src="./scripts/jquery/jquery.min.js"></script>
+   <script type="text/javascript" src="./bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+   <script type="text/javascript" src="./scripts/jquery/app.js"></script>
+   <script type="text/javascript" src="./scripts/jquery/studies.js"></script>
+
   </body>
 </html>
