@@ -21,8 +21,8 @@
     </h2>
 
     <figure>
-      <img src="./images/me.jpg" alt="Giang">
-      <img src="./images/me2.jpg" alt="Giang2">
+      <img class = "d-none d-md-block" src="./images/me.jpg" alt="Giang">
+      <img class = "d-block d-md-none" src="./images/me2.jpg" alt="Giang2">
       <figcaption>
         Hoang Giang
       </figcaption>
@@ -52,43 +52,43 @@
 
     <!-- People I admire -->
 
-    <div>
+    <div class="my-flexbox-container">
       <div class="my-padding-right-19">
-        <button type="button" class="my-button-people-name">
+        <button type="button" class="my-button-people-name btn btn-secondary">
           Herman Li
         </button>
 
-        <button type="button" class="my-button-jump-to-people">
+        <button type="button" class="my-button-jump-to-people d-none btn btn-secondary">
           <a href="#Herman-Li">#</a>
         </button>
       </div>
 
       <div class="my-padding-right-19">
-        <button type="button" class="my-button-people-name">
+        <button type="button" class="my-button-people-name btn btn-secondary">
           Slash
         </button>
 
-        <button type="button" class="my-button-jump-to-people">
+        <button type="button" class="my-button-jump-to-people d-none btn btn-secondary">
           <a href="#Slash">#</a>
         </button>
       </div>
 
       <div class="my-padding-right-19">
-        <button type="button" class="my-button-people-name">
+        <button type="button" class="my-button-people-name btn btn-secondary">
           Mike Shinoda
         </button>
 
-        <button type="button" class="my-button-jump-to-people">
+        <button type="button" class="my-button-jump-to-people d-none btn btn-secondary">
           <a href="#Mike-Shinoda">#</a>
         </button>
       </div>
 
       <div>
-        <button type="button" class="my-button-people-name">
+        <button type="button" class="my-button-people-name btn btn-secondary">
           Error 404: Not Found
         </button>
 
-        <button type="button" class="my-button-jump-to-people">
+        <button type="button" class="my-button-jump-to-people d-none btn btn-secondary">
           <a href="#Huong">#</a>
         </button>
       </div>
@@ -96,7 +96,7 @@
 
 </div>
 
-<div class="people"  id="Herman-Li">
+<div class="people d-none"  id="Herman-Li">
   <div class="name">
     <h1>
       Herman Li
@@ -108,7 +108,6 @@
 
     <figure>
       <img src="./images/HermanLi.jpg" alt="HL">
-      <img src="./images/HermanLi2.jpg" alt="HL2">
       <figcaption>
         Herman Li
       </figcaption>
@@ -137,7 +136,7 @@
 
 </div>
 
-<div class="people" id="Slash">
+<div class="people d-none" id="Slash">
 
   <h1>
     Slash
@@ -173,7 +172,7 @@
 
 </div>
 
-<div class="people" id="Mike-Shinoda">
+<div class="people d-none" id="Mike-Shinoda">
 
   <h1>
     Mike Shinoda
@@ -208,7 +207,7 @@
 
 </div>
 
-<div class="people" id="Huong">
+<div class="people d-none" id="Huong">
 
     <h1>
       Thu Hương
@@ -245,9 +244,11 @@
   </div>
 
   <script type="text/javascript" src="./scripts/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="./scripts/modernizr/modernizr.mq.js"></script>
   <script type="text/javascript" src="./bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="./scripts/jquery/app.js"></script>
   <script type="text/javascript" src="./scripts/jquery/index.js"></script>
+
 
   </body>
 </html>
